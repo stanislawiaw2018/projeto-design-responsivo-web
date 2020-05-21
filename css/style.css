@@ -11,9 +11,20 @@ img {max-width: 100%;}
     .btn-menu{ float: right; width: 76px; height: 76px; text-align: center; color: ghostwhite; cursor: pointer; border-radius: 76px; background: linear-gradient(to right,#4188ab,#7fc94c,#c9a14c,#e90000)}
 
 /* MENU */
-.menu{display: none; width: 100%; height: 100%; position: fixed; background-color: rgba(0, 0, 0, 0.7); top: 0; left: 0;}
+.menu{display: none; width: 100%; height: 100%; position: fixed; background-color: rgba(0, 0, 0, 0.9); top: 0; left: 0;}
     .btn-close{font-size: 3em; color: ghostwhite; float: right; margin-right: 6%; margin-top: 3%; cursor: pointer;}
     .menu ul {width: 100%; float: left; text-align: center;}
     .menu li {padding: 2%;}
      .menu li a {font-size: 2em; color: ghostwhite; padding: 1.5% 3%}
      .menu li a:hover{ border: 1px solid #c9a14c}
+
+/* BANNER */
+
+.banner{ width: 100%; float: left; text-align: center; padding: 3% 4%; background: url("../img/banner-mobile.jpg")}
+    .title{ width: 100%;}
+        .title h2{ font-size: 2.5em; color: ghostwhite; font-weight: 700; }
+        .title h3{ font-size: 1.5em; color: ghostwhite;}
+    .botoes{width: 100%; margin-top: 3%}
+        .botoes i{ float: right;}
+        .btn-cadastrar{ width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 3%; border-radius: 10px; background-color:ghostwhite; color: #130400; margin-bottom: 3%}
+        .btn-sobre{ width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 3%; border-radius: 10px; background-color:#130400; color: ghostwhite}
