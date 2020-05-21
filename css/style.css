@@ -4,3 +4,7 @@ body{ background-color: #f5f5f5}
 ul{ list-style: none;}
 a{ text-decoration: none;}
 img {max-width: 100%;}
+
+/* CABECALHO*/
+.cabecalho{ width: 100%; float: left; padding: 3% 4%;}
+.logo{ width: 76px; height: 76px; float: left; background: url(../img/exemplo3.png) center center/76px no-repeat; font-size: 0}
