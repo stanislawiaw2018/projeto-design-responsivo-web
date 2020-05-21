@@ -11,7 +11,7 @@ img {max-width: 100%;}
     .btn-menu{ float: right; width: 76px; height: 76px; text-align: center; color: ghostwhite; cursor: pointer; border-radius: 76px; background: linear-gradient(to right,#4188ab,#7fc94c,#c9a14c,#e90000)}
 
 /* MENU */
-.menu{width: 100%; height: 100%; position: fixed; background-color: rgba(0, 0, 0, 0.7); top: 0; left: 0;}
+.menu{display: none; width: 100%; height: 100%; position: fixed; background-color: rgba(0, 0, 0, 0.7); top: 0; left: 0;}
     .btn-close{font-size: 3em; color: ghostwhite; float: right; margin-right: 6%; margin-top: 3%; cursor: pointer;}
     .menu ul {width: 100%; float: left; text-align: center;}
     .menu li {padding: 2%;}
