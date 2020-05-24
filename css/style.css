@@ -5,54 +5,162 @@ ul{ list-style: none;}
 a{ text-decoration: none;}
 img {max-width: 100%;}
 
+/*================ CONTEINER ===============*/
+.conteiner{width: 100%; float: left; padding: 3% 4%; text-align: center}
+
+/*================ BG COLOR ===============*/
+.bg-gradient{color: ghostwhite; background: linear-gradient(to right,#4188ab,#7fc94c,#c9a14c,#e90000)}
+.bg-black{background-color:#130400;}
+.bg-white{background-color:#ffffff;}
+
+/* ================ TXT COLOR =============== */
+.color-white{color: ghostwhite;}
+.color-black{color: #130400;}
+
 /* CABECALHO*/
-.cabecalho{ width: 100%; float: left; padding: 3% 4%;}
-    .logo{ width: 76px; height: 76px; float: left; background: url(../img/logo-mobile2.png) center center/76px no-repeat; font-size: 0}
-    .btn-menu{ float: right; width: 76px; height: 76px; text-align: center; color: ghostwhite; cursor: pointer; border-radius: 76px; background: linear-gradient(to right,#4188ab,#7fc94c,#c9a14c,#e90000)}
+.logo{ width: 76px; height: 76px; float: left; background: url(../img/logo-mobile2.png) center center/76px no-repeat; font-size: 0}
+.btn-menu{ float: right; width: 76px; height: 76px; text-align: center; cursor: pointer; border-radius: 76px; }
 
 /* MENU */
-.menu{display: none; width: 100%; height: 100%; position: fixed; background-color: rgba(0, 0, 0, 0.9); top: 0; left: 0;}
-    .btn-close{font-size: 3em; color: ghostwhite; float: right; margin-right: 6%; margin-top: 3%; cursor: pointer;}
+.menu{display: none; width: 100%; height: 100%; position: fixed; background-color: rgba(0, 0, 0, 0.7); top: 0; left: 0; }
+    .btn-close{font-size: 3em;  float: right; margin-right: 6%; margin-top: 3%; cursor: pointer;}
     .menu ul {width: 100%; float: left; text-align: center;}
     .menu li {padding: 2%;}
-     .menu li a {font-size: 2em; color: ghostwhite; padding: 1.5% 3%}
+     .menu li a {font-size: 2em; padding: 1.5% 3%}
      .menu li a:hover{ border: 1px solid #c9a14c}
 
+    
 /* BANNER */
-
-.banner{ width: 100%; float: left; text-align: center; padding: 3% 4%; background: url("../img/banner-mobile.jpg")}
+.banner{  background: url("../img/banner-mobile.jpg")}
     .title{ width: 100%;}
-        .title h2{ font-size: 2.5em; color: ghostwhite; font-weight: 700; }
-        .title h3{ font-size: 1.5em; color: ghostwhite;}
+        .title h2{ font-size: 2.5em; font-weight: 700; }
+        .title h3{ font-size: 1.5em;}
     .botoes{width: 100%; margin-top: 3%}
         .botoes i{ float: right;}
-        .btn-cadastrar{ width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 3%; border-radius: 10px; background-color:ghostwhite; color: #130400; margin-bottom: 3%}
-        .btn-sobre{ width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 3%; border-radius: 10px; background-color:#130400; color: ghostwhite}
+        .btn{width: 100%; font-size: 1.5em; text-align: left; cursor: pointer; padding: 5%; border-radius: 10px;}
+            .btn-cadastrar{margin-bottom: 3%}
+            
 
 /* SERVIÇOS */
-.servicos{ width: 100%; float: left; padding: 3% 4%;}
-    .servico{ width: 100%; background-color: ghostwhite; text-align: left; border-radius: 7px; margin-bottom: 3%;}
-        .servico a img{ width: 100%; border-radius: 7px 7px 0 0}
-    .grupo-article{ padding: 7%;}
-        .grupo-article a{ font-size: 1.5em; color: #130400; font-weight: 700;}
-        .grupo-article h4{ font-size: 1.2em; color: #130400; margin-top: 2%;}
-        .grupo-article p{ margin-top: 6%; color: #130400; line-height: 1.5em;}
+
+.servico{ width: 100%; text-align: left; border-radius: 7px; margin-bottom: 3%;}
+    .servico a img{ width: 100%; border-radius: 7px 7px 0 0}
+.grupo-article{ padding: 7%; }
+    .grupo-article a{ font-size: 1.5em; font-weight: 700;}
+    .grupo-article h4{ font-size: 1.2em; margin-top: 2%;}
+    .grupo-article p{ margin-top: 6%; line-height: 1.5em; text-align: justify}
 
 /*  NEWSLETTER*/
-.newsletter{ width: 100%; text-align: center; float: left; padding: 3% 4%; background-color: #130400;}
-    .newsletter h2{ font-size: 1.5em; color: ghostwhite; font-weight: 700;}
-    .newsletter h3{ font-size: 1.2em; color: ghostwhite;}
-    .newsletter form{ margin-top: 2%; }
-    .newsletter input{ width: 100%;background-color: #130400; color: ghostwhite; border: 1px solid rgb(249, 249, 255, 0.3); padding: 5%; border-radius: 5px;}
-    .newsletter button {width: 100%; font-weight: 700;cursor: pointer; background-color: ghostwhite; color: #130400; padding: 5%; border-radius: 5px; margin-top: 2%;}
+
+.newsletter h2{ font-size: 1.5em; font-weight: 700;}
+.newsletter h3{ font-size: 1.2em;}
+.newsletter form{ margin-top: 2%; }
+.newsletter input{ width: 100%;background-color: #130400; color: ghostwhite; border: 1px solid rgb(249, 249, 255, 0.3); padding: 5%; border-radius: 5px;}
+.newsletter button {width: 100%; font-weight: 700;cursor: pointer; padding: 5%; border-radius: 5px; margin-top: 2%;}
 
 /*  RODAPE */
-.rodape{width: 100%; text-align: center; float: left; padding: 3% 4%; background: linear-gradient(to right,#4188ab,#7fc94c,#c9a14c,#e90000)}
-    .icons-socais a{font-size: 1.5em; color: rgba(255,255,255, 0.5); margin-right: 2%;}
-        .icons-socais a:hover{ color: rgb(255, 255, 255)}
-        /* ELIMINANDO A MARGEM DIREITA DO ULTIMO ELEMENTO DOS ICONES*/
-        .icons-socais a:last-child{margin-right: 0;}
+
+.icons-socais a{font-size: 1.5em; color: rgba(255,255,255, 0.5); margin-right: 2%;}
+.icons-socais a:hover{ color: rgb(255, 255, 255)}
+/* ELIMINANDO A MARGEM DIREITA DO ULTIMO ELEMENTO DOS ICONES*/
+.icons-socais a:last-child{margin-right: 0;}
+.copyright{ color: rgba(255,255,255, 0.7); margin-top: 2%;}
     
-    .copyright{ color: rgba(255,255,255, 0.7); margin-top: 2%;}
+/* MEDIA TYPES
+screen
+Para monitores ou dispositivos com telas coloridas e resoluçoes
+adequadas.
+
+print
+Para impressoras. Muito usado para dar um versão de impressão
+*/
+
+/* ============== MOBILE FIRST ============== */
+/* SMALL DEVICES - SMARTPHONES */
+
+@media screen and (min-width: 480px){
+    /* CABECALHO */
+    .logo{ width: 350px; height: 76px; background: url(../img/logo-tablet-web.png) center center/350px no-repeat;}
+    /* FIM CABECALHO */
+
+    /* SERVIÇOS */
+    .grupo-article a{ font-size: 2em;}
+    .grupo-article h4{ font-size: 1.6em;}
+    .grupo-article p{ font-size: 1.2em; }
+    /* FIM SERVIÇOS */
+}
+
+/* SMALL DEVICES - TABLETS */
+@media screen and (min-width: 768px) {
+    /* CABECALHO */
+    .logo{ width: 500px; height: 100px; background: url(../img/logo-tablet-web.png) center center/500px no-repeat;}
+    .title h2{ font-size: 2.5em; }
+    .title h3{ font-size: 2em;}
+
+    /* FIM CABECALHO */
+
+    /* BANNER */
+    .btn{padding: 3%; width: 80%}
         
 
+    /* SERVIÇOS */
+    .servico{ width: 45%; float: left; margin-right: 2%; margin-left: 2%; }
+    
+
+    /*  NEWSLETTER*/
+    .newsletter h2{ font-size: 2.5em;}
+    .newsletter h3{ font-size: 2.2em;}
+    .newsletter input{ width: 80%; padding: 3%; margin-right: 1%; font-size: 1.5em}
+    .newsletter button{ width: 80%; padding: 3%; font-size: 1.5em}
+
+    /* RODAPE */
+    .icons-socais a{font-size: 2em;}
+    .copyright{ font-size: 1.5em;}
+
+
+}
+
+/* MEDIUM DEVICES - TABLETS & DESKTOPS */
+@media screen and (min-width: 980px) {
+    .title{width: 70%; float: left; text-align: left;}
+    .botoes{width: 30%; float: right; margin-top: 0;}
+    .servico{ float:left; width: 31.33%; margin: 1%}
+    
+    .newsletter h2{ font-size: 2em;}
+    .newsletter h3{ font-size: 1.8em;}
+    .newsletter input{width: 60%; float: none; padding: 2%; font-size: 1.5em}
+    .newsletter button{width: 20%; float: none; margin-top: 0; padding: 2%; font-size: 1.5em;}
+}
+
+/* LARGE DEVICES - WIDE SCREENS */
+@media screen and (min-width: 1280px){
+    .btn-menu{display: none} 
+    .menu{ display: block; width: 100%;height: 85px; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.5);transition: background-color 0.5s ease-in-out;}
+    .menu li{width: 100%; margin: 0; padding: 0 2%;}
+    .menu li a{font-size:1.5em;float: left ;width: 16%; padding: 2%; color: white; margin: 0.3% 0.3%}
+    .mudarCor{background-color: black !important;}
+    .cabecalho{margin-top: 3%; margin-bottom: -2%;}
+    .title h2{ font-size: 2.2em; }
+    .title h3{ font-size: 1.8em;}
+    .bnt{ font-size: 1.8em;}
+    .btn-close{display: none}
+    .servico{ width: 23%; float: left; }
+    .servico:nth-child(3){margin-right: 2%;}
+    .servico:nth-child(4){margin-left: 0%}
+    .servico:nth-child(4){margin-right: 0%}
+    .grupo-article a{ font-size: 1.3em;}
+    .grupo-article h4{ font-size: 1.2em;}
+    .grupo-article p{ font-size: 1.1em; }
+    .newsletter h2{ font-size: 1.6em;}
+    .newsletter h3{ font-size: 1.4em;}
+    .newsletter input{width: 40%; padding: 1%; font-size: 1.3em}
+    .newsletter button{width: 20%; padding: 1%; font-size: 1.3em;}
+    .rodape{padding: 1.5%}
+    .icons-socais a{font-size: 1.5em;}
+    .copyright{ font-size: 1.3em; margin-top: 1%}
+   
+}
+@media screen and (min-width: 1280px){
+    .menu{height: 92px;}
+    .cabecalho{margin-top: 4%; margin-bottom: -2%;}
+}
