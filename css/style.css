@@ -62,7 +62,7 @@ img {max-width: 100%;}
 
 .icons-socais a{font-size: 1.5em; color: rgba(255,255,255, 0.5); margin-right: 2%;}
 .icons-socais a:hover{ color: rgb(255, 255, 255)}
-/* ELIMINANDO A MARGEM DIREITA DO ULTIMO ELEMENTO DOS ICONES*/
+/* ELIMINANDO A MARGEM DIREITA DO ULTIMO ELEMENTO DOS ICONES (NESSE O ULTIMO ELEMENTO FILHO)*/
 .icons-socais a:last-child{margin-right: 0;}
 .copyright{ color: rgba(255,255,255, 0.7); margin-top: 2%;}
     
@@ -145,7 +145,7 @@ Para impressoras. Muito usado para dar um versão de impressão
     .bnt{ font-size: 1.8em;}
     .btn-close{display: none}
     .servico{ width: 23%; float: left; }
-    .servico:nth-child(3){margin-right: 2%;}
+    .servico:nth-child(3){margin-right: 2%;} /*DELIMITA EM QUAL ELEMENTO FILHO SERÁ APLICADA ESSA PROPRIEDADE*/
     .servico:nth-child(4){margin-left: 0%}
     .servico:nth-child(4){margin-right: 0%}
     .grupo-article a{ font-size: 1.3em;}
